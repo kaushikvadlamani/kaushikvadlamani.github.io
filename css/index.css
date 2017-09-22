@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,500');
+body {
+   margin : 0px;
+   font-family: 'Roboto Condensed', sans-serif;
+   scroll-behavior: smooth;
+   overflow-y: scroll;
+   background-color: #BDBDBD;
+}
+nav h1 {
+  float: left;
+  display: flex;
+  padding-left: 2vw;
+  font-size: 2em;
+}
+ nav ul {
+  display: flex;
+  list-style: none;
+  float: right;
+  padding-right: 2vw;
+  text-transform: capitalize;
+}
+nav ul li {
+  padding: 10px;
+  font-weight: 500;
+}
+nav ul li a:link{
+  text-decoration: none;
+  color: inherit;
+}
+nav ul li a:visited{
+  text-decoration: none;
+  color: black;
+
+}
+section{
+  height: 100vh;
+  width: 100vw;
+  background-color: #E0E0E0;
+  display: table;
+}
+section .container {
+  width: 75vw;
+  left: 12.5vw;
+  position: relative;
+  top: 25vh;
+  display: flex;
+}
+section div p {
+  float: left;
+  padding: 12.5vh;
+}
+section div strong {
+  clear: both;
+  font-size: 2em;
+  text-transform: capitalize;
+}
+section div img {
+  float: right;
+  width: auto;
+  height: 15vw;
+  border-radius: 50%;
+  box-shadow: 0px 5px 10px 5px #aaa;
+}
+.invert-bg{
+  filter: invert(0.15);
+}
